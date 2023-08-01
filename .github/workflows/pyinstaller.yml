@@ -1,6 +1,6 @@
 name: PyInstaller Check
 
-on: [push]
+on: [push, workflow_dispatch]
 
 jobs:
   check:
